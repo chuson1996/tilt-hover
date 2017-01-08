@@ -17,63 +17,63 @@ class Example extends Component {
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Creativity'}
+          title={'TiltHover1'}
           descriptionClassName={s.description}
-          description={'NEVER STOP'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card1}`} />
 
         <TiltHover2
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Hustle'}
+          title={'TiltHover2'}
           titleClassName={s.title}
           descriptionClassName={s.description}
           rectangleClassName={s.rectangle}
-          description={'ALL WEEK'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card2}`} />
 
         <TiltHover3
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Dream Big'}
+          title={'TiltHover3'}
           titleClassName={s.title}
           descriptionClassName={s.description}
-          description={'TAKE ACTION'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card3}`}/>
 
         <TiltHover4
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Hustle'}
+          title={'TiltHover4'}
           titleClassName={s.title}
           descriptionClassName={s.description}
           rectangleClassName={s.rectangle}
-          description={'ALL WEEK'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card4}`} />
 
         <TiltHover5
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Travel More'}
+          title={'TiltHover5'}
           titleClassName={s.title}
           descriptionClassName={s.description}
           rectangleClassName={s.rectangle}
-          description={'BE OPEN-MINDED'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card5}`} />
 
         <TiltHover6
           backgroundClassName={s.background}
           glassClassName={s.glass}
           captionClassName={s.caption}
-          title={'Who Am I?'}
+          title={'TiltHover6'}
           titleClassName={s.title}
           descriptionClassName={s.description}
           rectangleClassName={s.rectangle}
-          description={'Son Chu Hoang'}
+          description={'Some text'}
           className={`${s.tilter} ${s.card6}`} />
       </div>
     );

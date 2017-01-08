@@ -1,6 +1,6 @@
 h1 {
   font-family: 'Abril Fatface', serif;
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 2px;
 }
 
@@ -53,6 +53,9 @@ h1 {
 }
 .card3 .glass {
   background-image: linear-gradient(45deg, rgba(255,106,20,0.39) 0%, rgba(65,147,119,0.44) 38%, rgba(66,147,118,0.44) 43%, rgba(91,85,255,0.32) 97%);
+}
+.card3 .caption {
+  right: 0;
 }
 
 .card4 .background {

@@ -1,5 +1,5 @@
 {
-  "name": "tilt-hover-effect",
+  "name": "tilt-hover",
   "main": "lib/tilt-hover.js",
   "version": "0.1.0",
   "devDependencies": {

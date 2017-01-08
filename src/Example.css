@@ -1,0 +1,82 @@
+h1 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+.app {
+  padding: 200px;
+}
+
+.description {
+  font-size: 0.85em;
+  letter-spacing: 0.15em;
+  margin-top: 1em;
+  font-weight: 200;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+}
+
+.tilter {
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.card1 .background {
+  background-image: url(https://images.unsplash.com/photo-1479231233972-e184fe70398e?dpr=1&auto=format&fit=crop&w=1199&h=793&q=80&cs=tinysrgb&crop=);
+  background-position: center center;
+}
+.card1 .glass {
+  background-image: linear-gradient(45deg, rgba(32,30,29,0.78) 0%, rgba(95,94,78,0.44) 54%, rgba(250,250,250,0.32) 100%);
+}
+.card1 .caption {
+  padding: 3em;
+}
+
+.card2 .background {
+  background-image: url(https://images.unsplash.com/photo-1470145318698-cb03732f5ddf?dpr=1&auto=format&fit=crop&w=1199&h=1799&q=80&cs=tinysrgb&crop=);
+  background-position: center center;
+}
+.card2 .glass {
+  background-image: linear-gradient(45deg, rgba(134, 133, 133, 0.78) 0%, rgba(65,147,119,0.44) 38%, rgba(66,147,118,0.44) 43%, rgba(216, 211, 211, 0.32) 100%);
+}
+.card2 .title,
+.card2 .description {
+  color: white;
+}
+.card2 .rectangle {
+  stroke: white;
+}
+
+.card3 .background {
+  background-image: url(https://images.unsplash.com/photo-1470227244774-0481686cbb37?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=);
+  background-position: center center;
+}
+.card3 .glass {
+  background-image: linear-gradient(45deg, rgba(255,106,20,0.39) 0%, rgba(65,147,119,0.44) 38%, rgba(66,147,118,0.44) 43%, rgba(91,85,255,0.32) 97%);
+}
+
+.card4 .background {
+  background-image: url(https://images.unsplash.com/photo-1474843148229-3163319fcc4c?dpr=1&auto=format&fit=crop&w=767&h=512&q=80&cs=tinysrgb&crop=);
+  background-position: center center;
+}
+.card4 .glass {
+  background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(79, 87, 171, 0.4), rgba(101, 46, 69, 0.4));
+}
+
+.card5 .background {
+  background-image: url(https://images.unsplash.com/photo-1474843148229-3163319fcc4c?dpr=1&auto=format&fit=crop&w=767&h=512&q=80&cs=tinysrgb&crop=);
+  background-position: center center;
+}
+.card5 .rectangle {
+  stroke: #de88de;
+}
+.card5 .caption {
+  color: #de88de;
+}
+
+.card6 .background {
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/15136006_1217964308262387_5274741510146148213_n.jpg?oh=194a3c12ecba60dd3683dd504908f99c&oe=58D85DCC);
+}
+.card6 .glass {
+  background-image: linear-gradient(45deg, rgba(56, 51, 55, 0.48), rgba(107, 32, 32, 0.58));
+}

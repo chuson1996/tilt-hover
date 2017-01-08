@@ -1,0 +1,77 @@
+.tilter {
+  width: 300px;
+  height: 415px;
+  display: inline-block;
+}
+
+.tilter__layer1 {
+  /*background-color: red;*/
+  background-image: url(https://tympanus.net/Development/TiltHoverEffects/img/11.jpg);
+  background-size: cover;
+}
+
+.tilter__layer1,
+.tilter__layer3,
+.tilter__line,
+.tilter__shine_contain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.tilter:hover .tilter__line path {
+}
+.tilter .tilter__line path {
+  stroke-dashoffset: 0;
+  stroke-dashoffset: 1270;
+  transition: stroke-dashoffset 0.7s;
+}
+
+.tilter__line {
+  stroke: #2e27ad;
+  stroke-width: 6px;
+  top: -50px;
+  fill: none;
+  left: -50px;
+  pointer-events: none;
+}
+
+.tilter__layer2 {
+  position: absolute;
+  /*border: 4px solid rgba(20, 59, 174, 1);*/
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+}
+
+.tilter__layer3 {
+  background-image: linear-gradient(45deg, rgba(46, 39, 173, 0.2), rgba(255, 186, 59, 0.58));
+}
+
+.tilter__shine_contain {
+  overflow: hidden;
+}
+
+.tilter__caption {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  padding: 0 4em 5.5em 1em;
+  color: #2e27ad;
+}
+
+.tilter__shine {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+}
+
+.tilter__title {
+  line-height: 1;
+  margin-bottom: 0.5em;
+  /*text-shadow: 0.1em 0.8em 1em rgba(0,0,0,0.35);*/
+}

@@ -3,3 +3,4 @@ scripts
 src
 build
 yarn.lock
+config
